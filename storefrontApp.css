@@ -1,0 +1,175 @@
+/*Common elements*/
+
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 3.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/*Header*/
+header {
+    padding: 10px 10px 20px 100px;
+    margin: 0 0px 0px;
+    background: #7893dd93 url() center 0px;
+    }
+    header h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #745b2f;
+    font-size: 4.5em;
+    letter-spacing: -0.025em;
+    margin: -100px 220px;    
+    /*text-shadow: 1px 2px 0 #bd8437;  offset-x | offset-y | blur-radius | color */
+    }
+    header h4 {
+    font-weight: 300;
+    font-size: 1.3em;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(67, 8, 161);
+    margin: 96px 243px 0 ;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    }
+    nav {
+        color: #000;
+        font-size: 1.3em;
+        letter-spacing: 30px 0.04em;
+        padding: 0;
+        margin: -180px 80% ;
+        float: left;
+    
+    }
+    nav li {
+        display: inline-block;
+        margin: 0px 20px;
+    }
+    nav li a, nav li a:visited {
+        text-decoration: none;
+        color: #C64322;
+       /* padding: 0.3em 0.6em;*/
+    }
+    nav li a:hover {
+        color: #C64322;
+        background-color: rgba(252,251,243,0.75);
+    }
+
+
+    
+body {
+font-size: 67.5%;
+font-family: Tahoma, Geneva, sans-serif;
+background: #c6b4c3 url(../../4-assets/BWH/white\ wallpaper.jpg)no-repeat fixed top center;
+padding: 10px 40px;
+margin: 0px;
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+background-size: 100% 100%;
+-o-background-size: 100% 100%;
+}
+
+section#sidebar {
+    width: 258px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 20px 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #2BA967 solid 5px;
+   }
+
+   section #main {
+    /*background-color: #FCFBE6;*/
+    background-color: rgba(252,251,243,0.7);
+    margin: 40px 2.0em 2.0em;
+    padding: 1.5em  0 2.0em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+   }
+section div.panel{
+
+    width: 300px;
+    margin: 40px 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+    box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+   }
+   section div.panel img.apparel {
+    width: 100%;
+   }
+   section div.panel img.seasonal {
+    width: 100%;
+   }
+   section #secondMain {
+    /*background-color: #FCFBE6;*/
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 0 2.0em;
+    padding: 1.5em  1.5em 1.5em 1.5em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;/* offset-x | offset-y | blur-radius | color */
+   }
+   section div.panel{
+    float: right;
+  
+    width: 300px;
+    margin: 0 15px 2.0em 15px;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+   }
+   section div.panel img.gifts {
+    width: 100%;
+}
+   section div.panel img.bakery {
+    width: 100%;
+   }
+
+
+h1 {
+    color: #5b5c72;
+    font-size: 2.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: #362f74;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #555;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color: #C64322;
+}
+a:hover {
+    color: #333;
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+
